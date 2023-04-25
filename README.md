@@ -49,10 +49,8 @@ Source code : https://github.com/quasar/Quasar
   * Windows 7
   * Windows Server 2008
   * Windows Vista
-* For older systems please use [Quasar version 1.3.0](https://github.com/quasar/Quasar/releases/tag/v1.3.0.0)
 
-## Compiling
-Open the project `Quasar.sln` in Visual Studio 2019+ with installed .NET desktop development features and [restore the NuGET packages](https://docs.microsoft.com/en-us/nuget/consume-packages/package-restore). Once all packages are installed the project can be compiled as usual by clicking `Build` at the top or by pressing `F6`. The resulting executables can be found in the `Bin` directory. See below which build configuration to choose from.
+
 
 ## Building a client
 | Build configuration         | Usage scenario | Description
@@ -60,18 +58,6 @@ Open the project `Quasar.sln` in Visual Studio 2019+ with installed .NET desktop
 | Debug configuration         | Testing        | The pre-defined [Settings.cs](/Quasar.Client/Config/Settings.cs) will be used, so edit this file before compiling the client. You can execute the client directly with the specified settings.
 | Release configuration       | Production     | Start `Quasar.exe` and use the client builder.
 
-## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-## Roadmap
-See [ROADMAP.md](ROADMAP.md)
-
-## Documentation
-See the [wiki](https://github.com/quasar/Quasar/wiki) for usage instructions and other documentation.
-
-## License
-Quasar is distributed under the [MIT License](LICENSE).  
-Third-party licenses are located [here](Licenses).
 
 ## Thank you!
 I really appreciate all kinds of feedback and contributions. Thanks for using and supporting Quasar!
